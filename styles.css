@@ -1,0 +1,46 @@
+body {
+  font-family: "Comic Sans MS", cursive;
+  background-color: #F8E7A4;
+  color: #333333;
+  margin: 0;
+  padding: 20px;
+}
+
+.center-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.center-image img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#routine-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 30px;
+}
+
+.routine-item {
+  background-color: #FFD700;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.routine-item h2 {
+  color: #333333;
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.routine-item p {
+  color: #666666;
+  font-size: 18px;
+  margin-bottom: 0;
+}
